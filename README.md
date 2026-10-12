@@ -48,6 +48,13 @@ However, during external evaluation, neither model identified any of the 1,000 v
 5. Execute the training and internal evaluation sections in order.
 6. To reproduce external testing, generate Nmap traffic in a controlled environment, process the captures using the documented CICFlowMeter setup, and provide the resulting CSV files at the notebook's expected paths.
 
+## Experimental Setup and Reproducibility
+
+Detailed instructions for the virtual-machine setup,
+Nmap traffic generation, packet capture, CICFlowMeter
+processing, and external evaluation are available in
+[EXPERIMENT_SETUP.md](EXPERIMENT_SETUP.md).
+
 The notebook contains exploratory and diagnostic steps in addition to the main experiment.
 
 ###Limitations
