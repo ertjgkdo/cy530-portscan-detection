@@ -107,6 +107,3 @@ RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
 
 The cleaned dataset contains 213,777 rows and 68 retained numerical features. Execute the notebook cells in order, supplying the separately extracted external CSV files for the independent evaluation.
 
-## 7. Reproducibility boundaries
-
-The notebook and these instructions describe the completed analysis, but exact VM capture timestamps, the original `tcpdump` command, all build-compatibility binaries, and the full modified CICFlowMeter source are not packaged here. A byte-for-byte recreation of the original captures is therefore not guaranteed. A faithful methodological reproduction requires documenting those details in the new environment and keeping the training/external feature schema aligned.
